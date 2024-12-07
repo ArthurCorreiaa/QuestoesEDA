@@ -1,1 +1,1 @@
-Repositório dedicado à resolução de questões de estruturas de dados
+Repositório dedicado à resolução de questões do tst de estruturas de dados e análise de eficiência delas.
