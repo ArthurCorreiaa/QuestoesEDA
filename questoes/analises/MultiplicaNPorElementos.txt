@@ -29,4 +29,4 @@ verdadeira. Vamos verificar para n = 1:
 
 Dessa forma, temos como valores possiveis para validar a inequação como sendo
                 x1 <= 6 e x2 >= 6
-
+    o que valida a afirmação de f(n) ser Θ(n).
