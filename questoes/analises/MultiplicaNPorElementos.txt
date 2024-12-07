@@ -1,0 +1,32 @@
+Definindo primitivas:
+    c1 = int i = 0
+    c2 = i < seq.length
+    c3 = i++
+    c4 = seq[i] *= multi
+    c5 = return seq
+
+Analisando frequência:
+    c1 = 1
+    c2 = n+1
+    c3 = n
+    c4 = n
+    c5 = 1
+
+Montando a função f(n) que representa o algoritmo:
+    f(n) = c1 + c2 * (n+1) + c3 * n + c4 * n + c5
+    f(n) = c1 + c2 * n + c2 + c3 * n + c4 * n + c5
+    f(n) = n(c2 + c3 + c4) + c1 + c2 + c5
+    f(n) = n(1 + 1 + 1) + 1 + 1 + 1
+    f(n) = 3 * n + 3
+
+Analisando a função, percebemos que f(n) é Θ(n). Podemos confirmar isso definindo
+uma função g(n) = n e
+                0 <= x1 * g(n) <= f(n) <= x2 * g(n)
+    onde, existindo um x1 e x2 que satisfaça a inequação, temos a inequação como 
+verdadeira. Vamos verificar para n = 1:
+                0 <= x1 * 1 <= 3 * 1 + 3 <= x2 * 1
+                0 <= x1 <= 6 <= x2
+
+Dessa forma, temos como valores possiveis para validar a inequação como sendo
+                x1 <= 6 e x2 >= 6
+
