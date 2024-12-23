@@ -19,7 +19,7 @@ public class FrequenciaElementoSequencia {
     }
 
 
-    public static int confereFrequencia(int[] seq, int numBuscado) {
+    private static int confereFrequencia(int[] seq, int numBuscado) {
         int contaFrequencia = 0;
         for (int i = 0; i < seq.length; i++) {
             if (seq[i] == numBuscado) {

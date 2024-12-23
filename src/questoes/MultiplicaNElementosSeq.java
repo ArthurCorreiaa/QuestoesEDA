@@ -29,7 +29,7 @@ public class MultiplicaNElementosSeq {
         }
     }
 
-    public static int[] multiplicador(int[] seq, int n) {
+    private static int[] multiplicador(int[] seq, int n) {
         for (int i = 0; i < seq.length; i++) {
             seq[i] *= n;
         }

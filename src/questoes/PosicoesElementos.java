@@ -24,7 +24,7 @@ public class PosicoesElementos {
         }
     }
 
-    public static List<Integer> verificaPosicoes(int[] seq, int numConferido) {
+    private static List<Integer> verificaPosicoes(int[] seq, int numConferido) {
         List<Integer> pos = new ArrayList<>();
         for (int i = 0; i < seq.length; i++) {
             if (seq[i] == numConferido) {

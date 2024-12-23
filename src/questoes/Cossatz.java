@@ -11,7 +11,7 @@ public class Cossatz {
         System.out.println(geraSequencia(Integer.parseInt(primeiro), Integer.parseInt(segundo) ));
     }
 
-    public static int geraSequencia(int inicio, int fim) {
+    private static int geraSequencia(int inicio, int fim) {
         int contaSequencia;
         int maior = 1;
         for (int i = inicio; i <= fim; i++) {

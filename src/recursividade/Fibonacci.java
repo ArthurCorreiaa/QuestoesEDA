@@ -9,21 +9,21 @@ public class Fibonacci {
 
         String nTermo = sc.nextLine();
 
-        System.out.println(geraSequencia(0, 1, 0, Integer.parseInt(nTermo)-1));
+        System.out.println(fibonacci(Integer.parseInt(nTermo)));
         
     }
 
 
-    public static int geraSequencia(int n1, int n2, int contador, int limite) {
-        if (limite == -1) {
+    public static int fibonacci(int n) {
+        if (n == 0) {
             return 0;
         }
 
-        if (contador == limite) {
-            return n2;
+        if (n == 1) {
+            return 1;
         }
 
-        return geraSequencia(n2, n1 + n2, contador+1, limite);
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
 }
