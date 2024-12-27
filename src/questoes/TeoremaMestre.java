@@ -1,4 +1,4 @@
-package recursividade;
+package questoes;
 
 public class TeoremaMestre {
     

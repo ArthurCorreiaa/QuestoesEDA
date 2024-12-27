@@ -1,4 +1,4 @@
-package recursividade;
+package questoes;
 
 import java.util.Scanner;
 
