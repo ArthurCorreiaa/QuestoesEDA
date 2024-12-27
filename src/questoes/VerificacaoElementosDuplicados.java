@@ -11,7 +11,7 @@ public class VerificacaoElementosDuplicados {
             sequeciaNumerica[i] = Integer.parseInt(entrada[i]);
         } 
 
-        System.out.println(verificaElementos(sequeciaNumerica));
+        System.out.println(verificaElementos(sequeciaNumerica));    
     }
 
     private static boolean verificaElementos(int[] seq) {
